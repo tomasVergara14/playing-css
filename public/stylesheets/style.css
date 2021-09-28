@@ -1,0 +1,28 @@
+/* css variables se declaran en root */
+:root{
+  --base: #ddc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+
+body {
+  padding: 50px;
+  font: 30px  "Helvetica neue", sans-serif;
+  font-weight: 100;
+  text-align: center;
+  background: #193549;
+}
+.controls{
+  margin-bottom: 50px;
+}
+
+img{
+  margin-top: 20px;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+.h1{
+  color: var(--base)
+}
